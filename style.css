@@ -1,0 +1,38 @@
+body {
+    margin-top: 25%;
+    margin-left: 9%;
+}
+
+
+.badge-container {
+
+    height: 240px;
+    width: 240px;
+    display: inline-block;
+    margin-right: auto;
+    width: 1.25rem;
+    height: 1.25rem;
+
+    .badge {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+        /* line-height: 0.8rem; */
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        color: azure;
+        background-color: brown;
+    }
+
+    /* .badge {
+        height: 100px;
+        width: 100px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: yellow;
+      } */
+}
